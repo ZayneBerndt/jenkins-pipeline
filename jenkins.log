@@ -1,0 +1,91 @@
+Running from: /usr/share/jenkins/jenkins.war
+webroot: EnvVars.masterEnvVars.get("JENKINS_HOME")
+Jun 19, 2018 11:53:16 AM Main deleteWinstoneTempContents
+WARNING: Failed to delete the temporary Winstone file /tmp/winstone/jenkins.war
+Jun 19, 2018 11:53:16 AM org.eclipse.jetty.util.log.Log initialized
+INFO: Logging initialized @399ms to org.eclipse.jetty.util.log.JavaUtilLog
+Jun 19, 2018 11:53:16 AM winstone.Logger logInternal
+INFO: Beginning extraction from war file
+Jun 19, 2018 11:53:17 AM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+WARNING: Empty contextPath
+Jun 19, 2018 11:53:17 AM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.4.z-SNAPSHOT
+Jun 19, 2018 11:53:18 AM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Jun 19, 2018 11:53:18 AM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: DefaultSessionIdManager workerName=node0
+Jun 19, 2018 11:53:18 AM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: No SessionScavenger set, using defaults
+Jun 19, 2018 11:53:18 AM org.eclipse.jetty.server.session.HouseKeeper startScavenging
+INFO: Scavenging every 660000ms
+Jenkins home directory: /var/jenkins_home found at: EnvVars.masterEnvVars.get("JENKINS_HOME")
+Jun 19, 2018 11:53:18 AM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started w.@2f08c4b{/,file:///var/jenkins_home/war/,AVAILABLE}{/var/jenkins_home/war}
+Jun 19, 2018 11:53:18 AM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@32057e6{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+Jun 19, 2018 11:53:18 AM org.eclipse.jetty.server.Server doStart
+INFO: Started @2485ms
+Jun 19, 2018 11:53:18 AM winstone.Logger logInternal
+INFO: Winstone Servlet Engine v4.0 running: controlPort=disabled
+Jun 19, 2018 11:53:19 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Jun 19, 2018 11:53:19 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Jun 19, 2018 11:53:21 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Jun 19, 2018 11:53:21 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Jun 19, 2018 11:53:21 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Jun 19, 2018 11:53:21 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Jun 19, 2018 11:53:21 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jun 19, 2018 11:53:22 AM jenkins.util.groovy.GroovyHookScript execute
+INFO: Executing /var/jenkins_home/init.groovy.d/tcp-slave-agent-port.groovy
+Jun 19, 2018 11:53:22 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Jun 19, 2018 11:53:22 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@59465a3c: display name [Root WebApplicationContext]; startup date [Tue Jun 19 11:53:22 UTC 2018]; root of context hierarchy
+Jun 19, 2018 11:53:22 AM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@59465a3c]: org.springframework.beans.factory.support.DefaultListableBeanFactory@7f2cd392
+Jun 19, 2018 11:53:22 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7f2cd392: defining beans [authenticationManager]; root of factory hierarchy
+Jun 19, 2018 11:53:23 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@1d22d55: display name [Root WebApplicationContext]; startup date [Tue Jun 19 11:53:23 UTC 2018]; root of context hierarchy
+Jun 19, 2018 11:53:23 AM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@1d22d55]: org.springframework.beans.factory.support.DefaultListableBeanFactory@19cbef5
+Jun 19, 2018 11:53:23 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@19cbef5: defining beans [filter,legacy]; root of factory hierarchy
+Jun 19, 2018 11:53:23 AM jenkins.install.SetupWizard init
+INFO: 
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+Jenkins initial setup is required. An admin user has been created and a password generated.
+Please use the following password to proceed to installation:
+
+9170aad02f8a404c98a3964f39dde6bf
+
+This may also be found at: /var/jenkins_home/secrets/initialAdminPassword
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+Jun 19, 2018 11:53:26 AM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jun 19, 2018 11:53:26 AM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+Jun 19, 2018 11:53:26 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 4,457 ms
+Jun 19, 2018 11:53:27 AM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jun 19, 2018 11:53:27 AM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+--> setting agent port for jnlp
+--> setting agent port for jnlp... done
+Jun 19, 2018 12:10:49 PM winstone.Logger logInternal
+INFO: JVM is terminating. Shutting down Winstone
