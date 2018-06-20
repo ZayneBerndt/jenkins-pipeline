@@ -1,5 +1,5 @@
 FROM jenkins/jenkins:2.112
-LABEL maintainer="zayneinvests@gmail.com"
+LABEL maintainer="zayneinvest@gmail.com"
 
 # Prep Jenkins Directories
 USER root
